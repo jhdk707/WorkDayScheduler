@@ -30,25 +30,6 @@ $(document).ready(function () {
   // Get a reference to the parent container
   var parentContainer = document.getElementsByClassName("time-blocks")[0];
 
-  // Loop through hours 9-17 (9am-5pm)
-  for (var i = 9; i <= 17; i++) {
-    // Create a new div element
-    var timeBlock = document.createElement("div");
-
-    // Set the id and class of the div according to the current hour
-    timeBlock.id = "hour-" + i;
-    timeBlock.className = "time-block";
-
-    // Add some content to the div (e.g. the hour and a textarea for the event)
-    timeBlock.innerHTML =
-      "<div class='hour'>" +
-      i +
-      ":00</div><textarea class='description'></textarea><button class=' fas fa-save saveBtn'></button>";
-
-    // Append the new div to the parent container
-    parentContainer.appendChild(timeBlock);
-  }
-
   // Get the current hour in 24-hour format
   var currentHour = new Date().getHours();
 
