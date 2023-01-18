@@ -50,8 +50,6 @@ textarea {
   height: 100%;
   display: flex;
   align-items: center;
-  float: left;
-  grid-area: auto;
 }
 
 .past {
@@ -77,15 +75,12 @@ textarea {
   background-color: #06aed5;
   color: white;
   display: flex;
-  align-items: center;
   justify-content: center;
-  float: right;
 }
 
 .saveBtn i {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .saveBtn:hover i {
