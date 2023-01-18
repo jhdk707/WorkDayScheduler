@@ -20,17 +20,22 @@ textarea {
   color: #000000;
 }
 
+.container {
+  display: grid;
+}
+
 .description {
   white-space: pre-wrap;
 }
 
 .time-block {
   border-radius: 15px;
-  max-width: 900px;
+  max-width: 1200px;
   align-self: center;
   padding: 2px;
   margin: 2px;
-  height: 50px;
+  height: 30px;
+  display: table;
 }
 
 .row {
@@ -46,6 +51,7 @@ textarea {
   display: flex;
   align-items: center;
   float: left;
+  grid-area: auto;
 }
 
 .past {
