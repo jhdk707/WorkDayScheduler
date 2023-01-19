@@ -28,7 +28,7 @@ The following animation demonstrates the application functionality:;
 
 ![live animation] (xxx);
 
-![screenshot grayed out past](assets\screenshotgraypast.png);
+![screenshot grayed out past](https://github.com/jhdk707/WorkDayScheduler/blob/597c2749c61c24f7e7906de19a15fe1e2e6d59e6/assets/screenshotgraypast.png);
 
 ![GitHub Repo] (https://github.com/jhdk707/WorkDayScheduler);
 
