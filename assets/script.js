@@ -27,9 +27,6 @@ $(document).ready(function () {
     }
   }
 
-  // Get a reference to the parent container
-  var parentContainer = document.getElementsByClassName("time-blocks")[0];
-
   // Get the current hour in 24-hour format
   var currentHour = new Date().getHours();
 
