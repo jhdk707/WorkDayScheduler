@@ -27,8 +27,11 @@ $(document).ready(function () {
     }
   }
 
-  // Get the current hour in 24-hour format
-  var currentHour = new Date().getHours();
+  // Get the current hour in 12-hour format
+  var formattedHour = new Date().getHours();
+  var hour = formattedHour % 12 || 12;
+  var amPm = formattedHour < 12 ? "AM" : "PM";
+  var formattedHour = hour.toLocaleString() + " " + amPm;
 
   // Loop through all time blocks
   $(".time-block").each(function () {
@@ -36,14 +39,14 @@ $(document).ready(function () {
     var hour = $(this).attr("id").split("-")[1];
 
     // Compare the hour of the current time block with the current hour
-    if (hour < currentHour) {
+    if (hour < formattedHour) {
       // If the hour of the current time block is before the current hour, add the "past" class
       $(this).addClass("past");
-    } else if (hour === currentHour) {
+    } else if (hour === formattedHour) {
       // If the hour of the current time block is the current hour, add the "red" class
       $(this).addClass("present");
     } else {
-      if (hour > currentHour) {
+      if (hour > formattedHour) {
         // If the hour of the current time block is after the current hour, add the "green" class
         $(this).addClass("future");
       }
