@@ -26,7 +26,7 @@ THEN the saved events persist
 
 The following animation demonstrates the application functionality:
 
-![live animation] (xxx)
+![live animation] (need to make animation during day for timing)
 
 ![screenshot grayed out past](https://github.com/jhdk707/WorkDayScheduler/blob/597c2749c61c24f7e7906de19a15fe1e2e6d59e6/assets/screenshotgraypast.png)
 
