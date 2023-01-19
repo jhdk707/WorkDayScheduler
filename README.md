@@ -25,7 +25,10 @@ THEN the saved events persist
 ```
 
 The following animation demonstrates the application functionality:
-![live animation] (xxx)
-![screenshot grayed out past](assets\screenshotgraypast.png)
-![GitHub Repo] (https://github.com/jhdk707/WorkDayScheduler)
-![Live Deployment] (https://jhdk707.github.io/WorkDayScheduler/)
+![live animation] (xxx);
+
+![screenshot grayed out past](assets\screenshotgraypast.png);
+
+![GitHub Repo] (https://github.com/jhdk707/WorkDayScheduler);
+
+![Live Deployment] (https://jhdk707.github.io/WorkDayScheduler/);
