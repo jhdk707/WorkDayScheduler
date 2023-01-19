@@ -24,12 +24,12 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-The following animation demonstrates the application functionality:;
+The following animation demonstrates the application functionality:
 
-![live animation] (xxx);
+![live animation] (xxx)
 
-![screenshot grayed out past](https://github.com/jhdk707/WorkDayScheduler/blob/597c2749c61c24f7e7906de19a15fe1e2e6d59e6/assets/screenshotgraypast.png);
+![screenshot grayed out past](https://github.com/jhdk707/WorkDayScheduler/blob/597c2749c61c24f7e7906de19a15fe1e2e6d59e6/assets/screenshotgraypast.png)
 
-![GitHub Repo] (https://github.com/jhdk707/WorkDayScheduler);
+![GitHub Repo] (https://github.com/jhdk707/WorkDayScheduler)
 
-![Live Deployment] (https://jhdk707.github.io/WorkDayScheduler/);
+![Live Deployment] (https://jhdk707.github.io/WorkDayScheduler/)
